@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #8d99ae;
+}
+/*----bottom bar style----*/
+.bottomBar{
+   width: 100%;
+   height: 50px; 
+   position:fixed;
+   bottom: 0;
+   background-color:#2b2d42;
+   color: #edf2f4;
+   display: flex;
+   justify-content: space-around;
+   font-family: ubuntu;
+   font-size: 14px;
+}
+.bottomBar a{
+    text-decoration: none;
+    color: #edf2f4;
+}
+
+/*----top categoury style----*/
+.topCate{
+    background-color: #2b2d42;
+    color: #d90429;
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/*---top slider section style---*/
+.topSlider{
+    width: 95%;
+    height: 320px;
+    background-image: linear-gradient(#8d99ae,#2b2d42);
+    margin: 10px auto 5px auto;
+    border-radius: 10px;
+}
+.card-slider {
+    overflow-x: scroll;
+    white-space: nowrap;
+    transition: scroll-behavior 0.5s ease-in-out;
+}
+  
+.card {
+    display: inline-block;
+    width: 260px;
+    height: 290px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-image: linear-gradient(#edf2f4,#2b2d42);
+    font-family: ubuntu;
+    position: relative;
+}
+.card a{
+    text-decoration: none;
+    color: #edf2f4;
+}
+.card h4{
+    position: absolute;
+    bottom: 8px;
+    left: 15px;
+}
+  
+.card img {
+    width: 95%;
+    height: 280px;
+    object-fit: fit;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/*----- favourites section style---*/
+.favo{
+    height: 390px;
+    width: 98%;
+    margin: 4px;
+    border-radius: 15px;
+    background-image:url(https://image.tmdb.org/t/p/original/xcIWcxLfVEAAYf0tXen3umOsaUZ.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#fav{
+    display: flex;
+    overflow-x: auto;
+    padding: 3px;
+    font-family: "Ubuntu", sans-serif;
+}
+#fav .movi1{
+    background-image: linear-gradient(#14213d, #8d99ae);
+}
+.delete-button{
+    height: 30px;
+    width: 180px;
+    margin: auto;
+    border: none;
+    border-radius: 15px;
+    color: #d90429;
+    font-family: "Ubuntu", sans-serif;  
+}
+.favo h3{
+    font-family: ubuntu;
+    margin-left: 7px;
+    color: #edf2f4;
+}
+
+/*---eslamic section style---*/
+.eslamic{
+    height: 200px;
+    width: 100%;
+    margin: 4px;
+    background-image: linear-gradient(#d90429, #2b2d42);
+    padding: 10px;
+    border-radius: 10px;
+}
+.eslamic h3{
+    font-family: ubuntu;
+}
+.eslamList{
+    display: flex;
+    overflow-x: auto;
+}
+.eslamList a{
+    text-decoration: none;
+    color: #edf2f4;
+    font-family: cairo;
+    margin-left: 5px;
+}
+.eslamList a img{
+    height: 130px;
+    width: 230px;
+    border-left: 5px solid #d90429;
+}
+.eslamList a p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/*---english movies section style---*/
+.englishMovies{
+    width: 100%;
+    height: 720px;
+    font-family: ubuntu;
+    margin: 4px;
+}
+.engList{
+    display: flex;
+    overflow-x: auto;
+}
+.movi1{
+    width: 170px;
+    height: 320px;
+    margin: 4px;
+    border-radius: 10px;
+    background-image: linear-gradient(#edf2f4, #8d99ae);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #edf2f4;
+}
+.movi1 a{
+    text-decoration: none;
+    color: #edf2f4;
+}
+.movi1 img{
+    height: 180px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 2px 10px;
+}
+.movi1Title{
+    text-align: center;
+    font-weight: bold;
+} 
+.movi1time{
+    text-align: center;
+}
+.mdb{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mdb i{
+    margin-top: 8px;
+    margin-right: 3px;
+    color: #fca311;
+}
+.mdb p{
+    font-weight: bold;
+}
+.movi1 button{
+    height: 30px;
+    width: 50px;
+    margin: auto;
+    border: none;
+    border-radius: 15px;
+}
+
+/*---arab movies section style---*/
+.arabMovies{
+    font-family: ubuntu;
+}
+
+/*---series section style---*/
+
+
